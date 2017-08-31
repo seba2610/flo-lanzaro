@@ -6921,8 +6921,8 @@ textarea {
 
 @font-face {
   font-family: "toolkit-entypo";
-  src: url("../fonts/Roboto.eot");
-  src: url("../fonts/Roboto.eot?#iefix") format("eot"), url("../fonts/Roboto.woff2") format("woff2"), url("../fonts/Roboto.woff") format("woff"), url("../fonts/Roboto.ttf") format("truetype");
+  src: url("../fonts/toolkit-entypo.eot");
+  src: url("../fonts/toolkit-entypo.eot?#iefix") format("eot"), url("../fonts/toolkit-entypo.woff2") format("woff2"), url("../fonts/toolkit-entypo.woff") format("woff"), url("../fonts/toolkit-entypo.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -9013,9 +9013,18 @@ ul li a.text-ribbon:hover {
 ul li a.text-ribbon:before {
   width: 0; }
 
-#biography p {
+#biography.row {
   background-color: rgba(0, 0, 0, 0.7);
   color: white; }
+
+#footer .icon{
+    font-size: 36px;
+}
+
+#footer .icon.icon-dezzer{
+    font-size: 20px;
+    line-height: 50px;
+}
 
 .block-inverse {
   color: #d7c714; }
