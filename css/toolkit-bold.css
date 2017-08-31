@@ -6926,6 +6926,11 @@ textarea {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+    font-family: "BebasNeue";
+    src: url("../fonts/BebasNeue.otf") format("opentype");
+}
+
 .icon:before {
   position: relative;
   top: 2px;
@@ -8743,7 +8748,9 @@ img.zoom-img {
     margin-left: 2%; }
 
 .text-ribbon-primary {
-  background-color: #EEE04A; }
+  background-color: #EEE04A; 
+    font-family: "BebasNeue";
+font-weight: 100;}
 
 .text-ribbon-success {
   background-color: #5cb85c; }
@@ -9016,6 +9023,9 @@ ul li a.text-ribbon:before {
   background-color: rgba(0, 0, 0, 0.7);
   color: white; }
 
+#biography p{
+    text-align: justify;
+}
 #footer .icon{
     font-size: 36px;
 }
